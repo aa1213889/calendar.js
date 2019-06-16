@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="control.css" />
+		<script type="text/javascript" src="jquery-3.0.0.js"></script>
+		<script type="text/javascript" src="control.js"></script>
+	</head>
+	<body>
+		<div class="calendar1">
+		</div>
+		<script>
+		 var calendar1 = $(".calendar1").calendar({
+		 	//date:'2019-04-01',
+		 	topWeekShow: true, 
+			ifSwitch: true, 
+			hoverDate: true,
+			dayClick: function(arg1,arg2){ //天数的点击事件
+				//alert(arg2)
+			}
+		 });
+		</script>
+	</body>
+</html>
+ 
